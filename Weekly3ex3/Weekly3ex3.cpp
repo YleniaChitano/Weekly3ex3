@@ -22,7 +22,6 @@ beginning: // Will begin from here when a new random number is needed.
     std::cout << "Try to guess the number I have thought. Please enter a number:\n";
 question: // Will go back here when the guessed number is wrong.
     std::cin >> guess;
-    std::cout << random;
    
 
     if (guess == random) {
